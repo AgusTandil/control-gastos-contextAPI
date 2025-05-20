@@ -56,7 +56,7 @@ export const budgetReducer = (
 
     return {
       ...state,
-      expense:[...state.expenses, expense ]
+      expenses:[...state.expenses, expense ]
     };
   }
 
